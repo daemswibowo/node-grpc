@@ -1,0 +1,24 @@
+{
+  "name": "service-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon .",
+    "grpc:start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.5.7",
+    "@grpc/proto-loader": "^0.6.9",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
